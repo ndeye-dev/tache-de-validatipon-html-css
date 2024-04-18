@@ -2,6 +2,8 @@ body{
     font-family: verdana, sans-serif;
     color: white;
     background-color: #252b42;
+    /* margin: 0;
+    padding: 0; */
 }
 .nav-lien{
     display: flex;
@@ -279,7 +281,7 @@ input[type=submit]{
         flex-direction: column;
     }
     .fond-white{
-        width: 320px;
+        width: 300px;
         font-size: 10px;
     }
     .fond{
@@ -299,14 +301,14 @@ input[type=submit]{
     .contenu-sec4{
         display: flex;
         flex-direction: column;
+        margin: 50px;
     }
     .fond-blanc{
-        width: 320px;
+        width: 245px;
     }
     .class-white{
         display: flex;
         flex-direction: column;
-        width: 500px;
     }
     .div-bar{
         display: none;
@@ -337,12 +339,6 @@ input[type=submit]{
     }  
     .class{
         font-size: 10px;
-    }
-    .img1, .img2{
-        width: 340px;
-    }
-    .div-icon{
-        margin-left: 100px;
     }
 
 }
