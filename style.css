@@ -2,8 +2,6 @@ body{
     font-family: verdana, sans-serif;
     color: white;
     background-color: #252b42;
-    /* margin: 0;
-    padding: 0; */
 }
 .nav-lien{
     display: flex;
@@ -270,6 +268,9 @@ input[type=submit]{
         color: white;
         border-radius: 6px;
     }
+    hr{
+        display: none;
+    }
     .portrait{
        width: 280px;
     }
@@ -324,7 +325,6 @@ input[type=submit]{
     .footer{
         display: flex;
         flex-direction: column;
-        text-align: center;
         font-size: 10px;
     }
     .liste{
@@ -338,6 +338,9 @@ input[type=submit]{
         font-size: 8px;
     }  
     .class{
+        font-size: 10px;
+    }
+    .bottom{
         font-size: 10px;
     }
 
